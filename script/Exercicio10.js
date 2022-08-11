@@ -24,7 +24,6 @@ function addProduto() {
 for (i = 0; i < propProdutos.length; i++) {
     propProdutos[i].vlrBruto = propProdutos[i].vlrUnitario * propProdutos[i].qtde
     var total = total + propProdutos[i].vlrBruto
-    console.log(total)
 
     propProdutos[i].vlrDesconto = desconto * ((total * 100) / propProdutos[i].vlrBruto)
 
