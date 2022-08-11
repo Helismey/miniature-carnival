@@ -6,8 +6,8 @@ function divisao() {
     resultado = numero % 2 
 
     if (resultado == 0) {
-        alert("O numero é par")
+        document.write("O numero é par")
     } else {
-        alert("Esse número é impar")
+        document.write("Esse número é impar")
     }
 }

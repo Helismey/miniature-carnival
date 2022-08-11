@@ -6,4 +6,4 @@ if (salarioBruto < 2000) {
     liquido = salarioBruto - (salarioBruto * 0.2)
 }
 
-alert("O seu salario liquido é " + liquido)
+document.write("O seu salario liquido é " + liquido)

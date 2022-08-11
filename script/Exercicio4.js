@@ -6,4 +6,4 @@ if (custo < 200) {
     var precoVenda = custo + (custo * 0.3)
 }
 
-alert("O seu preço de venda é " + precoVenda)
+document.write("O seu preço de venda é " + precoVenda)

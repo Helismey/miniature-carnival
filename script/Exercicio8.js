@@ -8,7 +8,7 @@ if (carro == "A" || carro == "a") {
 } else if (carro == "C" || carro == "c") {
     consumo = km / 12
 } else {
-    alert("Tipo de carro inexistente")
+    document.write("Tipo de carro inexistente")
 }
 
-alert("O seu consumo de combustivel em litros é " + consumo)
+document.write("O seu consumo de combustivel em litros é " + consumo)

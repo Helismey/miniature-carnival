@@ -3,9 +3,9 @@ var lado2 = prompt("Qual do valor do segundo lado do triângulo?")
 var lado3 = prompt("Qual do valor do terceiro lado do triângulo?")
 
 if (lado1 == lado2 && lado2 == lado3) {
-    alert("Trata-se de um triângulo equilátero.")
+    document.write("Trata-se de um triângulo equilátero.")
 } else if (lado1 != lado2 && lado2 != lado3 && lado1 != lado3) {
-    alert("Trata-se de um triângulo escaleno.")
+    document.write("Trata-se de um triângulo escaleno.")
 } else {
-    alert("Trata-se de um triângulo isósceles.")
+    document.write("Trata-se de um triângulo isósceles.")
 }
